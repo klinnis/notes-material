@@ -1,0 +1,25 @@
+$iconwidth: 50px;
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.sidenav-toggle {
+  display: none;
+  padding: 0;
+  margin: 8px;
+  min-width: $iconwidth;
+
+  @media (max-width: 720px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  mat-icon {
+    font-size: 30px;
+    width: $iconwidth;
+    height: $iconwidth;
+    line-height: $iconwidth;
+    color: white;
+  }
+}
